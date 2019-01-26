@@ -6,7 +6,7 @@
   "dist": "trusty",
   "group": "stable",
   "script": [
-    "mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dsonar.projectKey=Devonmusa_ecas -Dsonar.organization=devonmusa-github -Dsonar.host.url=https://sonarcloud.io  -Dsonar.login=097b245eafa13a86b768b77c2a6cefe714fb407amvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dsonar.projectKey=Devonmusa_qmq -Dsonar.organization=devonmusa-github -Dsonar.branch.name=source-analysis -Dsonar.host.url=https://sonarcloud.io   -Dsonar.login=31bc04fb697701835e117c1dc00e4989a06bf3fb"
+    "mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dsonar.projectKey=Devonmusa_ecas -Dsonar.organization=devonmusa-github -Dsonar.host.url=https://sonarcloud.io  -Dsonar.login=097b245eafa13a86b768b77c2a6cefe714fb407amvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dsonar.projectKey=qmq -Dsonar.organization=devonmusa-github -Dsonar.branch.name=source-analysis -Dsonar.host.url=https://sonarcloud.io   -Dsonar.login=ce8b0cecf3df06693c1e2af7d1c309472b31a880"
   ],
   ".result": "configured",
   "install": "mvn install -DskipTests=true -Dmaven.javadoc.skip=true",
